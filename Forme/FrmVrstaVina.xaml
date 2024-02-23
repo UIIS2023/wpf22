@@ -1,0 +1,19 @@
+﻿<Window x:Class="Vinarija.Forme.FrmVrstaVina"
+        Background="Beige"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vinarija.Forme"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Vrsta vina" Height="200" Width="300">
+    <Grid>
+      
+            <Label Content="Vrsta vina:" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Height="23"/>
+            <TextBox x:Name="txtVrstaVina"  HorizontalAlignment="Left" Margin="120,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23" Width="120"/>
+            <Button Background="BlanchedAlmond" x:Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="30,120,0,0" Width="75" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+            <Button Background="BlanchedAlmond" x:Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="180,120,0,0" Width="75" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+        
+    </Grid>
+</Window>
